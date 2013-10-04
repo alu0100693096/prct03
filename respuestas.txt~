@@ -270,4 +270,4 @@ counts = Hash.new(0) crea un hash, mientras que counts = {} crea un array. Al ar
 55.
 c = { :a => 3, :b => 2, :c => 1 } crea un hash llamado c con claves a, b, c y objetos 3, 2, 1.
 
-c.keys.sort.each { |k| puts c[k] } muestra los objetos, y después muestra un array con las claves de los objetos. Ambos estan ordenados por la clave.
+c.keys.sort.each { |k| puts c[k] } muestra los objetos, y después muestra un array con las claves de los objetos.
